@@ -1,0 +1,311 @@
+ body{
+   margin: 0;
+   padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.header-content{
+    background-image: url("https://cdn.mos.cms.futurecdn.net/3hD7RvVQQA3oioaY7bQYj6.jpg");
+    background-size: cover;
+    color: white;
+    height: 500px;
+}
+#container{
+       text-align: center;
+ } 
+ .name{
+    font-size: 30px;
+    color: rgb(145, 119, 83);
+   
+ }
+
+ .icons{
+    font-size:x-large;
+    padding-top: 200px;
+    
+ }
+ .in{
+   color: white;
+ }
+ .insta{
+    color: white;
+ }
+
+ main {
+    display: inline-block;
+    color: rgb(120, 131, 140);
+    height: 550px;
+    background-color: rgb(36, 35, 35);
+    position: relative;
+ }
+ .aboutme{
+    color: white;
+    margin: 0;
+    font-size: x-large;
+    padding-top: 40px;
+ }
+ .contacts{
+    color: white;
+    font-size: x-large;
+
+ }
+ /* .contact-position{
+    position: absolute;
+    top: 111%;
+    left: 42%;
+ } */
+ .resume{
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+    color: red;
+ }
+ .my-img{
+    margin-right: 60px;
+    width: 15%;
+    display: flex;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+ }
+ hr{
+    border: 2px solid red ;
+    background-color: red;
+    width: 10%;
+ }
+ .work{
+    font-size: 30px;
+    color: rgb(59, 57, 57);
+  }
+  h2{
+   font-style: italic;
+   color: rgb(59, 57, 57);
+  }
+  p{
+    color: rgb(130, 119, 104);
+  }
+  li{
+    color: rgb(130, 119, 104);
+
+  }
+  .education{
+   color: rgb(59, 57, 57);
+   font-style: italic;
+  }
+  .technol{
+    color: rgb(59, 57, 57);
+   font-style: italic;
+  }
+.my-work{
+    background-color: rgb(152, 150, 146);
+    color: white;
+    font-size: 13px;
+    height: 200px;
+    
+}
+
+footer{
+    color: white;
+    background-image: url(http://bradfrost.com/wp-content/uploads/2016/02/frontend-design.gif);
+    background-repeat: no-repeat,repeat-x;
+    background-size: cover;
+    margin: auto;
+     
+}
+
+
+
+.email{
+    display: flex;
+    flex-direction: column;
+   
+}
+input{
+    width: 30%;
+    padding: 20px;
+    background-color: rgb(79, 77, 77);
+    margin: 20px;
+    font-size: larger;
+   
+}
+
+input:hover{
+    background-color: white;
+}
+.message{
+    background-color: rgb(79, 77, 77);
+}
+.message:hover{
+    background-color: white;
+
+}
+label{
+    color: red;
+}
+.email-icon{
+    font-size: 30px;
+}
+.submit-btn{
+    border: none;
+    padding: 5px;
+    margin-top: 20px;
+    width: 10%;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.footer2{
+    padding-top: 90px;
+    color: rgb(71, 65, 56);
+    font-size: x-large;
+  
+}
+.projects{
+   display: flex;
+   justify-content: center;
+  }
+  /* .ealaws{
+   width: 40%;
+  } */
+  .ealaw-img{
+    width: 260px;
+    height: 150px;
+  }
+  .g-mail{
+    width: 260px;
+    height: 150px;
+  }
+  .flip-cards{
+    width: 260px;
+    height: 150px;
+  }
+  .expense-trac{
+    width: 260px;
+    height: 150px;
+  }
+ .flipcards{
+  position: relative;
+ }
+ .flip-cards {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+ }
+ .middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.flipcards:hover .flip-cards {
+  opacity: 0.3;
+}
+
+.flipcards:hover .middle {
+  opacity: 1;
+}
+.text {
+  /* background-color: #04AA6D; */
+  color: white;
+  font-size: 30px;
+  /* padding: 16px 32px; */
+}
+
+
+
+.expense{
+  position: relative;
+ }
+ .expense-trac {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+ }
+ .middle-first {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.expense:hover .expense-trac {
+  opacity: 0.3;
+}
+
+.expense:hover .middle-first {
+  opacity: 1;
+}
+
+
+.gmail{
+  position: relative;
+ }
+ .g-mail {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+ }
+ .middle-second{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.gmail:hover .g-mail {
+  opacity: 0.3;
+}
+
+.gmail:hover .middle-second {
+  opacity: 1;
+}
+
+.ealaws{
+  position: relative;
+ }
+ .ealaw-img{
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+ }
+ .middle-third{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.ealaws:hover .ealaw-img {
+  opacity: 0.3;
+}
+.ealaws:hover .middle-third{
+  opacity: 1;
+}
+
+  
+ 
+  h1{
+    color: rgb(71, 65, 56);
+  }
+  h3{
+    color: rgb(71, 65, 56)
+  }
+ .checkout{
+  color: rgb(35, 35, 35);
+ }
+
