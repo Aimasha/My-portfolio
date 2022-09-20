@@ -400,3 +400,80 @@ input{
 
 } 
 
+
+  @media only screen and (max-width : 390px) {
+    .header-content{
+      height:60vh;
+      /* width:260px; */
+    }
+    .wrap-content{
+      max-width: min-content;
+      margin: auto;
+    }
+    #container{
+      text-align: center;
+      width: 60%;
+      height: 100vh;
+      padding:0;
+  } 
+  .main-content{
+    height:60vh;
+  }
+  .resume{
+    margin: 0;
+  }
+  footer{
+    color: white;
+    background-image: url(http://bradfrost.com/wp-content/uploads/2016/02/frontend-design.gif);
+    background-repeat: no-repeat,repeat-x;
+    background-size: cover;
+    margin: auto;
+  }
+  input{
+    width: 40%;
+    padding: 5px;
+    background-color: rgb(79, 77, 77);
+    margin: 20px;
+    font-size: smaller;
+   
+  }
+   .my-work{
+    height: 300px;
+   }
+  .projects{
+    display: flex;
+     margin: 10px;
+   } 
+   .textarea{
+    width: 150px;
+    height: 100px;
+   }
+   .submit-btn{
+    width: 100px;
+   }
+   .g-mail{
+    width: 55px;
+    height: 50px;
+   }
+   .ealaw-img{
+    width: 55px;
+    height: 50px;
+   }
+   .flip-cards{
+    width: 55px;
+    height: 50px;
+   }
+    .expense-trac{
+      width: 55px;
+    height: 50px;
+   }
+   .my-img{
+    margin-right: 60px;
+    width: 15%;
+    display: flex;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+  }
+  }
+
