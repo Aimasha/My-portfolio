@@ -109,8 +109,7 @@ nav{
     background-color: rgb(152, 150, 146);
     color: white;
     font-size: 13px;
-    height: 200px;
-    
+    height: 400px;
 }
 
 footer{
@@ -161,7 +160,7 @@ label{
     border: none;
     padding: 10px;
     margin-top: 20px;
-    width: 10%;
+    width: 20%;
     font-size: 20px;
     border-radius: 8px;
     color: rgb(255, 254, 254);
@@ -181,21 +180,19 @@ label{
    width: 40%;
   } */
   .ealaw-img{
-    /* width: 260px;
-    height: 150px; */
-    width: 150px;
+    width: 200px;
     height: 150px;
   }
   .g-mail{
-    width: 150px;
+    width: 200px;
     height: 150px;
   }
   .flip-cards{
-    width: 150px;
+    width: 200px;
     height: 150px;
   }
   .expense-trac{
-    width: 150px;
+    width: 200px;
     height: 150px;
   }
  .flipcards{
@@ -310,8 +307,6 @@ label{
   opacity: 1;
 }
 
-/* ----- */
-  
  
   h1{
     color: rgb(71, 65, 56);
@@ -322,7 +317,10 @@ label{
  .checkout{
   color: rgb(35, 35, 35);
  }
-
+ .projects1{
+  display: flex;
+   justify-content: center;
+ }
 
   @media only screen and (max-width : 375px) {
   .header-content{
@@ -361,10 +359,20 @@ input{
   font-size: smaller;
  
 }
-
+ .my-work{
+  height: 300px;
+ }
 .projects{
   display: flex;
+   margin: 10px;
  } 
+ .textarea{
+  width: 150px;
+  height: 100px;
+ }
+ .submit-btn{
+  width: 100px;
+ }
  .g-mail{
   width: 80px;
   height: 100px;
