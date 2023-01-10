@@ -1,162 +1,218 @@
+@media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
 
- body{
-   margin:auto 0;
-   padding:0;
-   box-sizing: border-box;
-}
-form{
-  margin: auto;
-}
+  * {
+    margin: 0;
+    padding: 0;
+  }
 
-.header-content{
+  .header-content {
     background-image: url("https://cdn.mos.cms.futurecdn.net/3hD7RvVQQA3oioaY7bQYj6.jpg");
     background-size: cover;
-    color: white;
+    width: 800px;
     height: 400px;
-    
-}
-#container{
-       text-align: center;
-       width: 100%;
-       
- } 
- .name{
+  }
+
+  .tag {
+    margin-top: 30px;
+  }
+
+  #container {
+    text-align: center;
+    width: 100%;
+  }
+
+  .name {
     font-size: 30px;
     color: rgb(145, 119, 83);
-   
- }
+  }
 
- .icons{
-    font-size:x-large;
+  .title-emplosoft {
+    margin-top: 20px;
+  }
+
+  .education {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .icons {
+    font-size: x-large;
     padding-top: 200px;
-    
- }
- .in{
-   color: white;
- }
- .insta{
-    color: white;
- }
+  }
 
- main {
+  .in {
+    color: white;
+  }
+
+  .insta {
+    color: white;
+  }
+
+  main {
     display: inline-block;
     color: rgb(120, 131, 140);
+    width: 690px;
     height: 550px;
     background-color: rgb(36, 35, 35);
     position: relative;
- }
- .aboutme{
+  }
+
+  .text-aboutme {
+    margin-top: 20px;
+  }
+
+  .aboutme {
     color: white;
     margin: 0;
     font-size: x-large;
     padding-top: 40px;
- }
- .contacts{
+  }
+
+  .contacts {
     color: white;
     font-size: x-large;
-    
- }
- 
+    margin-top: 30px;
+  }
 
- .resume{
+  .contact-text {
+    margin-top: 40px;
+  }
+
+  .resume {
     padding: 20px;
     border-radius: 10px;
     border: none;
-    margin-top: 30px;
+    margin-top: 80px;
     color: red;
- }
- .my-img{
-    margin-right: 60px;
-    width: 25%;
+  }
+
+  .my-img {
     display: flex;
-    border-radius: 50%;
+    margin-right: 90px;
+    width: 25%;
+    border-radius: 60%;
     position: absolute;
-    top: 30%;
- }
- form{
-  width: 375px;
- }
- hr{
-    border: 2px solid red ;
+    top: 60%;
+  }
+
+  article {
+    width: 690px;
+    height: 450px;
+  }
+
+  ul {
+    margin-top: 20px;
+  }
+
+  form {
+    width: 375px;
+  }
+
+  hr {
+    border: 2px solid red;
     background-color: red;
-    width: 10%;
- }
- .work{
+    width: 20%;
+    margin-left: 40%;
+  }
+
+  .work {
     font-size: 30px;
     color: rgb(59, 57, 57);
   }
-  h2{
-   font-style: italic;
-   color: rgb(59, 57, 57);
+
+  h2 {
+    font-style: italic;
+    color: rgb(59, 57, 57);
   }
-  p{
+
+  p {
     color: rgb(130, 119, 104);
   }
-  li{
+
+  li {
     color: rgb(130, 119, 104);
 
   }
-  .education{
-   color: rgb(59, 57, 57);
-   font-style: italic;
-  }
-  .technol{
+
+  .education {
     color: rgb(59, 57, 57);
-   font-style: italic;
+    font-style: italic;
   }
-.my-work{
+
+  .technol {
+    color: rgb(59, 57, 57);
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 20px
+  }
+
+  .my-work {
     background-color: rgb(152, 150, 146);
     color: white;
     font-size: 13px;
-    height: 400px;
-}
+    height: 510px;
+    width: 690px;
+  }
 
-footer{
+  footer {
     color: white;
     background-image: url(http://bradfrost.com/wp-content/uploads/2016/02/frontend-design.gif);
-    background-repeat: no-repeat,repeat-x;
+    background-repeat: no-repeat, repeat-x;
     background-size: cover;
     margin: auto;
-     
-}
+    width: 690px;
+  }
 
-
-
-.email{
+  .email {
     display: flex;
     flex-direction: column;
-   
-}
-input{
-    width: 60%;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  input {
+    width: 70%;
     padding: 15px;
     background-color: rgb(94, 92, 92);
     margin: 20px;
     font-size: larger;
     border: none;
-}
+    margin-left: 200px;
+  }
 
+  textarea {
+    margin-left: 200px;
+    width: 79%;
+  }
 
-input:hover{
+  input:hover {
     background-color: white;
-}
-.message{
+  }
+
+  .message {
     background-color: rgb(79, 77, 77);
-}
-.message:hover{
+  }
+
+  .message:hover {
     background-color: white;
 
-}
-label{
+  }
+
+  label {
     color: red;
-}
-.email-icon{
+  }
+
+  .email-icon {
     font-size: 20px;
-}
-.emailicon{
-  font-size: 20px;
-}
-.submit-btn{
+  }
+
+  .emailicon {
+    font-size: 20px;
+    margin-left: 300px;
+    margin-top: 30px;
+  }
+
+  .submit-btn {
     border: none;
     padding: 10px;
     margin-top: 20px;
@@ -165,525 +221,603 @@ label{
     border-radius: 8px;
     color: rgb(255, 254, 254);
     background-color: rgb(117, 115, 115);
-}
-.footer2{
+    margin-left: 290px;
+  }
+
+  .getin {
+    margin-left: 290px;
+  }
+
+  .footer2 {
     padding-top: 90px;
     color: rgb(71, 65, 56);
     font-size: x-large;
-  
-}
-.projects{
-   display: flex;
-   justify-content: center;
+
   }
-  /* .ealaws{
-   width: 40%;
-  } */
-  .ealaw-img{
-    width: 200px;
-    height: 150px;
+
+  .projects {
+    display: flex;
+    justify-content: center;
   }
-  .g-mail{
-    width: 200px;
-    height: 150px;
+
+  .all-projects {
+    width: 100%;
   }
-  .flip-cards{
-    width: 200px;
-    height: 150px;
-  }
-  .expense-trac{
-    width: 200px;
-    height: 150px;
-  }
- .flipcards{
-  position: relative;
- }
- .flip-cards {
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility: hidden;
- }
- .middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-.flipcards:hover .flip-cards {
-  opacity: 0.3;
-}
 
-.flipcards:hover .middle {
-  opacity: 1;
-}
-.text {
-  /* background-color: #04AA6D; */
-  color: white;
-  font-size: 30px;
-  /* padding: 16px 32px; */
-}
-
-.expense{
-  position: relative;
- }
- .expense-trac {
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility: hidden;
- }
- .middle-first {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-.expense:hover .expense-trac {
-  opacity: 0.3;
-}
-
-.expense:hover .middle-first {
-  opacity: 1;
-}
-
-.gmail{
-  position: relative;
- }
- .g-mail {
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility: hidden;
- }
- .middle-second{
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-.gmail:hover .g-mail {
-  opacity: 0.3;
-}
-
-.gmail:hover .middle-second {
-  opacity: 1;
-}
-
-.ealaws{
-  position: relative;
- }
- .ealaw-img{
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility: hidden;
- }
- .middle-third{
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-.ealaws:hover .ealaw-img {
-  opacity: 0.3;
-}
-.ealaws:hover .middle-third{
-  opacity: 1;
-}
-
- 
-  h1{
-    color: rgb(71, 65, 56);
-  }
-  h3{
-    color: rgb(71, 65, 56)
-  }
- .checkout{
-  color: rgb(35, 35, 35);
- }
- .projects1{
-  display: flex;
-   justify-content: center;
- }
-
-
-
-  @media only screen and (max-width : 375px) {
-    
-    .header-content{
-      background-image: url("https://cdn.mos.cms.futurecdn.net/3hD7RvVQQA3oioaY7bQYj6.jpg");
-      background-size: cover;
-      color: white;
-      /* height: 500px; */
-      height:60vh;
-      width:375px
-  }
-  footer{
-    color: white;
-    background-image: url(http://bradfrost.com/wp-content/uploads/2016/02/frontend-design.gif);
-    background-repeat: no-repeat,repeat-x;
-    background-size: cover;
-    margin: auto;
-    width: 375px;
-     
-}
-  .wrap-content{
-    max-width: min-content;
-    margin: auto;
-  }
-  #container{
-    text-align: center;
-    height: 100vh;
-    padding:0;
-    
-} 
-.main-content {
-  display: inline-block;
-  color: rgb(120, 131, 140);
-  height: 65vh;
-  width: 375px;
-  background-color: rgb(36, 35, 35);
-  position: relative;
-}
-.name{
-  margin-top: 0;
-}
-
-article{
-  width: 375px;
-}
-.resume{
-  margin: 0;
-}
-footer{
-  color: white;
-  background-image: url(http://bradfrost.com/wp-content/uploads/2016/02/frontend-design.gif);
-  background-repeat: no-repeat,repeat-x;
-  background-size: cover;
-  margin: auto;
-  
-}
-
-input{
-  width: 40%;
-  padding: 5px;
-  background-color: rgb(79, 77, 77);
-  margin: 20px;
-  font-size: smaller;
- 
-}
-.my-work{
-  background-color: rgb(152, 150, 146);
-  color: white;
-  font-size: 13px;
-  height: 50px;
-  width: 375px;
-}
-.checkout{
-  padding-top: 40px;
-}
-.projects{
-  display: flex;
-   margin: 10px;
- } 
- .textarea{
-  width: 150px;
-  height: 100px;
- }
- .submit-btn{
-  width: 100px;
- }
- .g-mail{
-  width: 80px;
-  height: 100px;
- }
- .ealaw-img{
-  width: 80px;
-  height: 100px;
- }
- .flip-cards{
-  width: 80px;
-  height: 100px;
- }
-  .expense-trac{
-  width: 80px;
-  height: 100px;
- }
- .my-img{
-  margin-right: 60px;
-  width: 15%;
-  display: flex;
-  border-radius: 50%;
-  position: absolute;
-  top: 40%;
-}
-
-} 
-
-
-  @media only screen and (max-width : 390px) {
-    .header-content{
-      height:60vh;
-      width:390px;
-    }
-    .wrap-content{
-      max-width: min-content;
-      margin: auto;
-    }
-    #container{
-      text-align: center;
-      width: 60%;
-      height: 100vh;
-      padding:0;
-  } 
-  .name{
-    margin-top: 0;
-  }
-  .main-content{
-    height:60vh;
-    width: 390px;
-  }
-  .resume{
-    margin: 0;
-  }
-  footer{
-    color: white;
-    background-image: url(http://bradfrost.com/wp-content/uploads/2016/02/frontend-design.gif);
-    background-repeat: no-repeat,repeat-x;
-    background-size: cover;
-    margin: auto;
-  }
-  article{
-    width: 390px;
-  }
-  input{
+  /* .ealaws {
     width: 40%;
-    padding: 5px;
-    background-color: rgb(79, 77, 77);
-    margin: 20px;
-    font-size: smaller;
-   
+  } */
+
+  .ealaw-img {
+    width: 200px;
+    height: 150px;
   }
-  .checkout{
-    padding-top: 40px;
+
+  .g-mail {
+    width: 200px;
+    height: 150px;
   }
-   .my-work{
-    height: 300px;
-    width: 390px;
-   }
-  .projects{
-    display: flex;
-     margin: 10px;
-   } 
-   .textarea{
-    width: 150px;
-    height: 100px;
-   }
-   .submit-btn{
-    width: 100px;
-   }
-   .g-mail{
-    width: 90px;
-    height: 80px;
-   }
-   .ealaw-img{
-    width: 90px;
-    height: 80px;
-   }
-   .flip-cards{
-    width: 90px;
-    height: 80px;
-   }
-    .expense-trac{
-      width: 90px;
-      height: 80px;
-   }
-   .my-img{
-    margin-right: 60px;
-    width: 15%;
-    display: flex;
-    flex-direction: row;
-    border-radius: 50%;
+
+  .flip-cards {
+    width: 200px;
+    height: 150px;
+  }
+
+  .expense-trac {
+    width: 200px;
+    height: 150px;
+  }
+
+
+  .flip-cards {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
     position: absolute;
     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .flipcards:hover .flip-cards {
+    opacity: 0.3;
+  }
+
+  .flipcards:hover .middle {
+    opacity: 1;
+  }
+
+  .text {
+    /* background-color: #04AA6D; */
+    color: white;
+    font-size: 30px;
+    padding: 16px 32px;
+  }
+
+
+  .expense-trac {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle-first {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .expense:hover .expense-trac {
+    opacity: 0.3;
+  }
+
+  .expense:hover .middle-first {
+    opacity: 1;
+  }
+
+  .gmail {
+    /* position: relative; */
+  }
+
+  .g-mail {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle-second {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .gmail:hover .g-mail {
+    opacity: 0.3;
+  }
+
+  .gmail:hover .middle-second {
+    opacity: 1;
+  }
+
+  .ealaws {
+    position: relative;
+  }
+
+  .ealaw-img {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle-third {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .ealaws:hover .ealaw-img {
+    opacity: 0.3;
+  }
+
+  .ealaws:hover .middle-third {
+    opacity: 1;
+  }
+
+
+  h1 {
+    color: rgb(71, 65, 56);
+  }
+
+  h3 {
+    color: rgb(71, 65, 56)
+  }
+
+  .checkout {
+    color: rgb(35, 35, 35);
+    margin-top: 40px;
+  }
+
+  .projects1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .projects2 {
+    display: flex;
+    justify-content: center;
 
   }
-  footer{
+
+}
+
+@media only screen and (min-device-width :641px) and (max-device-width : 1605px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .header-content {
+    background-image: url("https://cdn.mos.cms.futurecdn.net/3hD7RvVQQA3oioaY7bQYj6.jpg");
+    background-size: cover;
+    width: 1800px;
+    height: 700px;
+  }
+
+  p {
+    font-size: 30px;
+  }
+  .tag {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+
+  #container {
+    text-align: center;
+    width: 100%;
+  }
+
+  .name {
+    font-size: 30px;
+    color: rgb(145, 119, 83);
+  }
+
+  .title-emplosoft {
+    margin-top: 20px;
+  }
+
+  .education {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .icons {
+    font-size: xx-large;
+    padding-top: 100px;
+  }
+
+  .in {
+    color: white;
+  }
+
+  .insta {
+    color: white;
+  }
+
+  main {
+    display: inline-block;
+    color: rgb(120, 131, 140);
+    width: 1800px;
+    height: 670px;
+    background-color: rgb(36, 35, 35);
+    position: relative;
+  }
+
+  .text-aboutme {
+    margin-top: 20px;
+  }
+
+  .aboutme {
+    color: white;
+    margin: 0;
+    font-size: xx-large;
+    padding-top: 40px;
+  }
+
+  .contacts {
+    color: white;
+    font-size: xx-large;
+    margin-top: 30px;
+  }
+
+  .contact-text {
+    margin-top: 40px;
+  }
+
+  .resume {
+    padding: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 80px;
+    color: red;
+  }
+
+  .my-img {
+    display: flex;
+    margin-right: 90px;
+    width: 20%;
+    border-radius: 60%;
+    position: absolute;
+    top: 40%;
+  }
+
+  article {
+    width: 1800px;
+    height: 470px;
+  }
+
+  ul {
+    margin-top: 20px;
+  }
+
+  form {
+    width: 375px;
+  }
+
+  hr {
+    border: 2px solid red;
+    background-color: red;
+    width: 20%;
+    margin-left: 40%;
+  }
+
+  .work {
+    font-size: 30px;
+    color: rgb(59, 57, 57);
+    margin-top: 20px;
+  }
+
+  h2 {
+    font-style: italic;
+    color: rgb(59, 57, 57);
+  }
+
+  p {
+    color: rgb(130, 119, 104);
+  }
+
+  li {
+    color: rgb(130, 119, 104);
+
+  }
+
+  .education {
+    color: rgb(59, 57, 57);
+    font-style: italic;
+  }
+
+  .technol {
+    color: rgb(59, 57, 57);
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 20px
+  }
+
+  .my-work {
+    background-color: rgb(152, 150, 146);
+    color: white;
+    font-size: 13px;
+    height: 510px;
+    width: 1800px;
+  }
+
+  footer {
     color: white;
     background-image: url(http://bradfrost.com/wp-content/uploads/2016/02/frontend-design.gif);
-    background-repeat: no-repeat,repeat-x;
+    background-repeat: no-repeat, repeat-x;
     background-size: cover;
     margin: auto;
-    width: 390px;
+    width: 1800px;
   }
+
+  .email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
   }
 
-
-
-  /* @media only screen and (max-width : 1170px ){
-  
-   .header-content{
-       background-image: url("https://cdn.mos.cms.futurecdn.net/3hD7RvVQQA3oioaY7bQYj6.jpg");
-       background-size: cover;
-       color: white;
-       height: 650px;    
-   }
-   #container{
-          text-align: center;
-          width: 100%;
-          
-    } 
-    .name{
-       font-size: 60px;
-       color: rgb(145, 119, 83);
-        margin-top: 0;
-    }
-    .quote{
-      font-size: 30px;
-
-    }
-   .tag{
-    font-size: 40px;
-   }
-    .icons{
-       font-size:xxx-large;
-       padding-top: 200px;
-       
-    }
-    main {
-       display: inline-block;
-       color: rgb(120, 131, 140);
-       height: 820px;
-       background-color: rgb(36, 35, 35);
-       position: relative;
-       font-size: xx-large;
-    }
-    .aboutme{
-       color: white;
-       margin: 0;
-       font-size: x-large;
-       padding-top: 40px;
-    ;
-    }
-    .contacts{
-       color: white;
-       font-size: x-large;
-    }
-   
-    .resume{
-       padding: 20px;
-       border-radius: 10px;
-       border: none;
-       margin-top: 30px;
-       color: red;
-       font-size: x-large;
-    }
-    .my-img{
-       margin-right: 60px;
-       width: 25%;
-       display: flex;
-       border-radius: 50%;
-       position: absolute;
-       top: 30%;
-    }
-    form{
-     width: 375px;
-    }
-    hr{
-       border: 2px solid red ;
-       background-color: red;
-       width: 10%;
-    }
-    .work{
-       font-size: 50px;
-       color: rgb(59, 57, 57);
-     }
-    
-   .my-work{
-       background-color: rgb(152, 150, 146);
-       color: white;
-       font-size: 13px;
-       height: 400px;
-       
-   }
-    article{
-      font-size: xx-large
-    }
-
-
-   
-  
-   input{
-       width: 30%;
-       padding: 15px;
-       background-color: rgb(94, 92, 92);
-       margin: 20px;
-       font-size: larger;
-       border: none;
-   }
-   
-  
-   .emailicon{
-     font-size: 20px;
-   }
-   .submit-btn{
-       border: none;
-       padding: 10px;
-       margin-top: 20px;
-       width: 30%;
-       font-size: 20px;
-       border-radius: 8px;
-       color: rgb(255, 254, 254);
-       background-color: rgb(117, 115, 115);
-   }
-   
-   .projects{
-      display: flex;
-      justify-content: center;
-     }
-     
-     .ealaw-img{
-       width: 250px;
-       height: 150px;
-     }
-     .g-mail{
-      width: 250px;
-      height: 150px;
-     }
-     .flip-cards{
-      width: 250px;
-      height: 150px;
-     }
-     .expense-trac{
-      width: 250px;
-      height: 150px;
-     }
- 
-     footer{
-      color: white;
-      background-image: url(http://bradfrost.com/wp-content/uploads/2016/02/frontend-design.gif);
-      background-repeat: no-repeat,repeat-x;
-      background-size: cover;
-      
+  input {
+    width: 100%;
+    padding: 15px;
+    margin: 20px;
+    font-size: larger;
+    border: none;
+    margin-left: 700px;
   }
-  form{
-    margin: auto;
+
+  textarea {
+    margin-left: 700px;
+    width: 410px;
   }
-  input{
+
+  input:hover {
     background-color: white;
-    width: 60%;
   }
-  } */
+
+  .message {
+    background-color: rgb(79, 77, 77);
+  }
+
+  .message:hover {
+    background-color: white;
+
+  }
+
+  label {
+    color: red;
+  }
+
+  .email-icon {
+    font-size: 30px;
+  }
+
+  .emailicon {
+    font-size: 20px;
+    margin-left: 850px;
+    margin-top: 30px;
+  }
+
+  .submit-btn {
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    width: 50%;
+    font-size: 20px;
+    border-radius: 8px;
+    color: rgb(255, 254, 254);
+    background-color: rgb(117, 115, 115);
+    margin-left: 800px;
+  }
+
+  .getin {
+    font-size: 30px;
+    position: relative;
+    left: 700px;
+    bottom: 50px;
+  }
+
+  .footer2 {
+    padding-top: 90px;
+    color: rgb(71, 65, 56);
+    font-size: x-large;
+
+  }
+
+  .projects {
+    display: flex;
+    justify-content: center;
+  }
+
+  .all-projects {
+    width: 100%;
+  }
+
+  .ealaw-img {
+    width: 200px;
+    height: 150px;
+  }
+
+  .g-mail {
+    width: 200px;
+    height: 150px;
+  }
+
+  .flip-cards {
+    width: 200px;
+    height: 150px;
+  }
+
+  .expense-trac {
+    width: 200px;
+    height: 150px;
+  }
+
+
+  .flip-cards {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .flipcards:hover .flip-cards {
+    opacity: 0.3;
+  }
+
+  .flipcards:hover .middle {
+    opacity: 1;
+  }
+
+  .text {
+    color: white;
+    font-size: 30px;
+    padding: 16px 32px;
+  }
+
+
+  .expense-trac {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle-first {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .expense:hover .expense-trac {
+    opacity: 0.3;
+  }
+
+  .expense:hover .middle-first {
+    opacity: 1;
+  }
+
+  .g-mail {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle-second {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .gmail:hover .g-mail {
+    opacity: 0.3;
+  }
+
+  .gmail:hover .middle-second {
+    opacity: 1;
+  }
+
+  .ealaws {
+    position: relative;
+  }
+
+  .ealaw-img {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle-third {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .ealaws:hover .ealaw-img {
+    opacity: 0.3;
+  }
+
+  .ealaws:hover .middle-third {
+    opacity: 1;
+  }
+
+  h1 {
+    color: rgb(71, 65, 56);
+  }
+
+  h3 {
+    color: rgb(71, 65, 56);
+  }
+
+  .checkout {
+    color: rgb(35, 35, 35);
+    margin-top: 40px;
+  }
+
+  .projects1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .projects2 {
+    display: flex;
+    justify-content: center;
+
+  }
+}
