@@ -407,7 +407,6 @@
   .projects2 {
     display: flex;
     justify-content: center;
-
   }
 
 }
@@ -427,7 +426,7 @@
   }
 
   p {
-    font-size: 30px;
+    font-size: 25px;
   }
   .tag {
     margin-top: 50px;
@@ -550,7 +549,7 @@
 
   li {
     color: rgb(130, 119, 104);
-
+    font-size: x-large;
   }
 
   .education {
@@ -569,7 +568,7 @@
     background-color: rgb(152, 150, 146);
     color: white;
     font-size: 13px;
-    height: 510px;
+    height: 800px;
     width: 1800px;
   }
 
@@ -658,7 +657,18 @@
 
   .projects {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+
+  }
+
+  .projects1 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .projects2 {
+    display: flex;
+    justify-content: space-around;
   }
 
   .all-projects {
@@ -666,23 +676,57 @@
   }
 
   .ealaw-img {
-    width: 200px;
-    height: 150px;
-  }
+    width: 400px;
+    height: 250px;
+    }
 
   .g-mail {
-    width: 200px;
-    height: 150px;
+    width: 400px;
+    height: 250px;
+  }
+
+  .sbmit {
+    width: 400px;
+    height: 250px;
+  }
+
+  .grocery {
+    width: 400px;
+    height: 250px;
+  }
+
+  .restar {
+    width: 400px;
+    height: 250px;
+
+  }
+  .calculator {
+    width: 400px;
+    height: 250px;
+  }
+  .tic-tac {
+    width: 400px;
+    height: 250px;
+  }
+
+  .movie {
+    width: 400px;
+    height: 250px;
+  }
+
+  .review {
+    width: 400px;
+    height: 250px;
   }
 
   .flip-cards {
-    width: 200px;
-    height: 150px;
+    width: 400px;
+    height: 250px;
   }
 
   .expense-trac {
-    width: 200px;
-    height: 150px;
+    width: 400px;
+    height: 250px;
   }
 
 
@@ -810,7 +854,7 @@
     margin-top: 40px;
   }
 
-  .projects1 {
+  /* .projects1 {
     display: flex;
     justify-content: center;
   }
@@ -819,5 +863,5 @@
     display: flex;
     justify-content: center;
 
-  }
+  } */
 }
