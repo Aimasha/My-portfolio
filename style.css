@@ -8,7 +8,7 @@
     background-image: url("https://cdn.mos.cms.futurecdn.net/3hD7RvVQQA3oioaY7bQYj6.jpg");
     background-size: cover;
     width: 1000px;
-    height: 400px;
+    height: 500px;
   }
 
   .tag {
@@ -21,12 +21,13 @@
   }
 
   .name {
-    font-size: 30px;
+    font-size: 35px;
     color: rgb(145, 119, 83);
   }
 
   .title-emplosoft {
-    margin-top: 20px;
+    margin-top: 30px;
+    font-size: 35px;
   }
 
   .education {
@@ -51,14 +52,14 @@
     display: inline-block;
     color: rgb(120, 131, 140);
     width: 1000px;
-    height: 550px;
+    height: 840px;
     background-color: rgb(36, 35, 35);
     position: relative;
   }
 
   .text-aboutme {
     margin-top: 20px;
-  }
+    }
 
   .aboutme {
     color: white;
@@ -96,7 +97,7 @@
 
   article {
     width: 1000px;
-    height: 450px;
+    height: 1050px;
   }
 
   ul {
@@ -126,22 +127,25 @@
 
   p {
     color: rgb(130, 119, 104);
+    font-size: 40px;
   }
 
   li {
     color: rgb(130, 119, 104);
-
+    font-size: 40px;
   }
 
   .education {
     color: rgb(59, 57, 57);
     font-style: italic;
+    font-size: 40px;
   }
 
   .technol {
     color: rgb(59, 57, 57);
     font-style: italic;
     margin-top: 20px;
+    font-size: 40px;
     margin-bottom: 20px
   }
 
@@ -169,7 +173,7 @@
 
   input {
     width: 150%;
-    padding: 20px;
+    padding: 30px;
     margin: 20px;
     font-size: larger;
     border: none;
@@ -178,7 +182,7 @@
 
   textarea {
     margin-left: 200px;
-    width: 165%;
+    width: 175%;
 
   }
 
@@ -212,10 +216,10 @@
 
   .submit-btn {
     border: none;
-    padding: 10px;
+    padding: 20px;
     margin-top: 20px;
     width: 100%;
-    font-size: 20px;
+    font-size: 40px;
     border-radius: 8px;
     color: rgb(255, 254, 254);
     background-color: rgb(76, 154, 28);
