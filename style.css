@@ -1,5 +1,4 @@
-@media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
-
+@media only screen and (min-device-width : 260px) and (max-device-width : 640px) {
   * {
     margin: 0;
     padding: 0;
@@ -8,7 +7,7 @@
   .header-content {
     background-image: url("https://cdn.mos.cms.futurecdn.net/3hD7RvVQQA3oioaY7bQYj6.jpg");
     background-size: cover;
-    width: 800px;
+    width: 1000px;
     height: 400px;
   }
 
@@ -51,7 +50,7 @@
   main {
     display: inline-block;
     color: rgb(120, 131, 140);
-    width: 690px;
+    width: 1000px;
     height: 550px;
     background-color: rgb(36, 35, 35);
     position: relative;
@@ -92,11 +91,11 @@
     width: 25%;
     border-radius: 60%;
     position: absolute;
-    top: 60%;
+    top: 50%;
   }
 
   article {
-    width: 690px;
+    width: 1000px;
     height: 450px;
   }
 
@@ -150,8 +149,8 @@
     background-color: rgb(152, 150, 146);
     color: white;
     font-size: 13px;
-    height: 510px;
-    width: 690px;
+    height: 710px;
+    width: 1000px;
   }
 
   footer {
@@ -160,20 +159,17 @@
     background-repeat: no-repeat, repeat-x;
     background-size: cover;
     margin: auto;
-    width: 690px;
+    width: 1000px;
+    height: 800px;
   }
 
   .email {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 50px;
+   margin-left: 40%;
   }
 
   input {
-    width: 70%;
-    padding: 15px;
-    background-color: rgb(94, 92, 92);
+    width: 150%;
+    padding: 20px;
     margin: 20px;
     font-size: larger;
     border: none;
@@ -182,7 +178,8 @@
 
   textarea {
     margin-left: 200px;
-    width: 79%;
+    width: 165%;
+
   }
 
   input:hover {
@@ -203,7 +200,8 @@
   }
 
   .email-icon {
-    font-size: 20px;
+    font-size: 30%;
+    margin-left: 50% ;
   }
 
   .emailicon {
@@ -216,65 +214,78 @@
     border: none;
     padding: 10px;
     margin-top: 20px;
-    width: 30%;
+    width: 100%;
     font-size: 20px;
     border-radius: 8px;
     color: rgb(255, 254, 254);
-    background-color: rgb(117, 115, 115);
-    margin-left: 290px;
+    background-color: rgb(76, 154, 28);
+    margin-left: 270px;
   }
 
   .getin {
-    margin-left: 290px;
+    font-size: 30px;
   }
 
   .footer2 {
-    padding-top: 90px;
-    color: rgb(71, 65, 56);
-    font-size: x-large;
-
-  }
+    padding-top: 50px;
+    color: rgb(148, 103, 35);
+    font-size: xx-large;
+    }
 
   .projects {
+    margin-top: 20px;
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
   }
-
-  .all-projects {
-    width: 100%;
+  .second-project{
+    display: flex;
+    justify-content:space-around;
   }
-
-  /* .ealaws {
-    width: 40%;
-  } */
+  .third-project {
+    display: flex;
+    justify-content:space-around;
+  }
 
   .ealaw-img {
-    width: 200px;
-    height: 150px;
+    width: 250px;
+    height: 200px;
   }
 
-  .g-mail {
-    width: 200px;
-    height: 150px;
+  .sbmit {
+    width: 250px;
+    height: 200px;
+  }
+  .restar {
+    width: 250px;
+    height: 200px;
   }
 
-  .flip-cards {
-    width: 200px;
-    height: 150px;
+  .grocery {
+    width: 250px;
+    height: 200px;
   }
-
   .expense-trac {
-    width: 200px;
-    height: 150px;
+    width: 250px;
+    height: 200px;
+  }
+  .tic-tac {
+    width: 250px;
+    height: 200px;
+  }
+  .calculator {
+    width: 250px;
+    height: 200px;
+  }
+  .movie {
+    width: 250px;
+    height: 200px;
+  }
+  .review {
+    width: 250px;
+    height: 200px;
   }
 
-
-  .flip-cards {
-    opacity: 1;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
-
+ 
   .middle {
     transition: .5s ease;
     opacity: 0;
@@ -327,9 +338,6 @@
     opacity: 1;
   }
 
-  .gmail {
-    /* position: relative; */
-  }
 
   .g-mail {
     opacity: 1;
@@ -399,19 +407,9 @@
     margin-top: 40px;
   }
 
-  .projects1 {
-    display: flex;
-    justify-content: center;
-  }
-
-  .projects2 {
-    display: flex;
-    justify-content: center;
-  }
-
 }
 
-@media only screen and (min-device-width :641px) and (max-device-width : 1605px) {
+@media only screen and (min-device-width :641px) and (max-device-width : 1805px) {
 
   * {
     margin: 0;
@@ -661,12 +659,12 @@
 
   }
 
-  .projects1 {
+  .second-project {
     display: flex;
     justify-content: space-around;
   }
 
-  .projects2 {
+  .third-project{
     display: flex;
     justify-content: space-around;
   }
@@ -854,14 +852,5 @@
     margin-top: 40px;
   }
 
-  /* .projects1 {
-    display: flex;
-    justify-content: center;
-  }
-
-  .projects2 {
-    display: flex;
-    justify-content: center;
-
-  } */
+ 
 }
