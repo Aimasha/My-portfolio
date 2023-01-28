@@ -79,11 +79,12 @@
   }
 
   .resume {
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
     border: none;
     margin-top: 80px;
     color: red;
+    font-size: 30px;
   }
 
   .my-img {
